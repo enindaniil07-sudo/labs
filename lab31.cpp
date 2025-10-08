@@ -1,18 +1,17 @@
 #include <iostream>
-using namespace std;
 
 int main() {
     int a = 12; // 1100
     int b = 10; // 1010
 
-    cout << "a=12(1100), b=10(1010)" << endl << endl;
+    std::cout << "a=12(1100), b=10(1010)" << std::endl << std::endl;
 
-    cout << "AND:  a & b  = " << (a & b) << endl;
-    cout << "OR:   a | b  = " << (a | b) << endl;
-    cout << "XOR:  a ^ b  = " << (a ^ b) << endl;
-    cout << "NOT:  ~a     = " << (~a) << endl;
-    cout << "Сдвиг влево:  a << 2 = " << (a << 2) << endl;
-    cout << "Сдвиг вправо: a >> 2 = " << (a >> 2) << endl;
+    std::cout << "AND:  a & b  = " << (a & b) << std::endl;
+    std::cout << "OR:   a | b  = " << (a | b) << std::endl;
+    std::cout << "XOR:  a ^ b  = " << (a ^ b) << std::endl;
+    std::cout << "NOT:  ~a     = " << (~a) << std::endl;
+    std::cout << "Shift left:  a << 2 = " << (a << 2) << std::endl;
+    std::cout << "Shift right: a >> 2 = " << (a >> 2) << std::endl;
 
     return 0;
 }
