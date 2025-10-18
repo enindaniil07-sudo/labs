@@ -5,7 +5,7 @@ int main() {
 
     std::cin >> N;
 
-    if (std::cin.fail() || N < 1 || N > 30) {
+    if (N < 1 || N > 30) {
         std::cout << "ERROR" << std::endl;
         return 1;
     }
@@ -24,4 +24,5 @@ int main() {
         f2 = c;
     }
     return 0;
+
 }
